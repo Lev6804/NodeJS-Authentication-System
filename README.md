@@ -22,75 +22,46 @@
 - Public key: dùng để ghi lên các giao diện  "<divclass="g-recaptcha" data-sitekey="--public key--"></div>"
 ![](public/results/public_key.png)
 - Private key: ghi trong file .env
+- 
 ![](public/results/private_key.png)
+-
 Hình ảnh chỉ mang tính chất minh họa về key
 
 ##### Kết quả
 ![](public/results/capcha_result.png)  
 
-##### Thêm file .env để set port và chạy bài
-![](public/results/them_env.png)  
+### Đăng nhập bằng google
+
+##### Đăng ký tài khoản https://console.cloud.google.com/
+![](public/results/create_Oauth2.png) 
+
+# Test các chức năng
+
+### Đăng ký
+![](public/results/regist.png) 
+
+### Đăng nhập
+![](public/results/login.png) 
+#### Giao diện sau khi đăng nhập
+![](public/results/profile.png) 
 
 
-- ![Change Password](public/results/change_pass.png)  
-  Giao diện đổi mật khẩu.
 
-- ![Create Captcha](public/results/create_captcha.png)  
-  Tạo Captcha ngẫu nhiên.
+### Đổi mật khẩu
+![](public/results/change_pass.png) 
 
-- ![Create OAuth2](public/results/create_Oauth2.png)  
-  Cấu hình OAuth2 cho đăng nhập Google.
 
-- ![Fix Router](public/results/fix_router.png)  
-  Sửa router trong hệ thống.
+### Quên mật khẩu
+- Nhập email 
+![](public/results/fogotpass.png)
+- Mật khẩu sẽ được gửi về email
+![](public/results/new_pass.png)
 
-- ![Forgot Password](public/results/fogotpass.png)  
-  Chức năng quên mật khẩu.
 
-- ![Home 1](public/results/home_1.png)  
-  Giao diện trang chủ (phiên bản 1).
 
-- ![Home 2](public/results/home_2.png)  
-  Giao diện trang chủ (phiên bản 2).
+### Đăng xuất
+![](public/results/sign_out.png) 
 
-- ![Image](public/results/image.png)  
-  Hình minh họa chung.
-
-- ![Info OAuth](public/results/info_Oauth.png)  
-  Thông tin user sau khi login bằng OAuth.
-
-- ![Login Google Fail](public/results/Login_google_fail.png)  
-  Lỗi khi đăng nhập Google thất bại.
-
-- ![Login With New Password](public/results/login_with_new_pass.png)  
-  Đăng nhập lại bằng mật khẩu mới.
-
-- ![Login](public/results/login.png)  
-  Form đăng nhập cơ bản.
-
-- ![Private Key](public/results/private_key.png)  
-  Khóa riêng tư (JWT hoặc OAuth).
-
-- ![Profile](public/results/profile.png)  
-  Trang thông tin cá nhân.
-
-- ![Public Key](public/results/public_key.png)  
-  Khóa công khai.
-
-- ![Public Secret Key](public/results/public_secret_key.png)  
-  Bộ key bảo mật.
-
-- ![Register Fix Captcha](public/results/regist_fix_captcha.png)  
-  Đăng ký với Captcha bảo mật.
-
-- ![Sign Out](public/results/sign_out.png)  
-  Chức năng đăng xuất.
-
-- ![Them ENV](public/results/them_env.png)  
-  File `.env` chứa cấu hình.
-
-- ![CN](public/results/cn.png)  
-  Hình minh họa khác (có thể là chứng nhận / cấu hình).
 
 ## 🚀 Kết luận
 
