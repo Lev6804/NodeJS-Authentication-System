@@ -35,8 +35,6 @@ Hình ảnh chỉ mang tính chất minh họa về key
 ##### Đăng ký tài khoản https://console.cloud.google.com/
 ![](public/results/create_Oauth2.png) 
 
-# Test các chức năng
-
 ### Tạo một mật khẩu để gửi mã về email
 
 - Các bước
@@ -46,7 +44,7 @@ Hình ảnh chỉ mang tính chất minh họa về key
 
 + B3: Sau khi bật 2FA, vào Security → App Passwords.
 
-+B4: Chọn:
++ B4: Chọn:
 
 Select app: Mail
 
@@ -54,6 +52,10 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
 
 + B5: Nhấn Generate → Google sẽ cung cấp một mật khẩu 16 ký tự.
 Đây là mật khẩu dùng để gửi email từ ứng dụng Node.js.
+
+# Test các chức năng
+
+
 
 ### Đăng ký
 ![](public/results/regist.png) 
