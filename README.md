@@ -67,7 +67,7 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
 
 
 
-### Đổi mật khẩu
+### Đổi mật khẩu: để nhận được mật khẩu mới gửi về mail thì ta cần phải nhập mail và nhập pass mới được tạo vào trong file .env
 - Đổi mật khẩu
 ![](public/results/change_pass.png)
 - Đăng nhập với mật khẩu mới
@@ -84,7 +84,7 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
 
 
 
-### Đăng xuất
+### Đăng xuất: sau khi nhấn nút đăng xuất ta có giao diện như trên
 ![](public/results/sign_out.png) 
 
 
@@ -94,7 +94,5 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
   - Đăng ký, đăng nhập cơ bản.  
   - Captcha chống bot.  
   - Reset/đổi mật khẩu.  
-  - Đăng nhập Google OAuth2.  
+  - Đăng nhập Google OAuth2.  (Chưa hoàn thiện)
   - Quản lý profile cá nhân.  
-
-Các ảnh trong thư mục **public/results/** minh chứng cho từng bước triển khai hệ thống.
