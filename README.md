@@ -1,8 +1,6 @@
-# 📌 Report: Hệ thống Authentication
+# Report: Hệ thống Authentication
 
-Thư mục **public/results/** chứa các hình ảnh minh họa cho quá trình xây dựng hệ thống Authentication với các chức năng: Đăng nhập, Đăng ký, Đổi mật khẩu, Reset mật khẩu, OAuth2 (Google), Captcha, Quản lý Profile.
-
-## 📝 Nội dung các hình ảnh
+## thay đổi code
 
 - ![Captcha Result](public/results/captcha_result.png)  
   Kết quả kiểm tra Captcha.
