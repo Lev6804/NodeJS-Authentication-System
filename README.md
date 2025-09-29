@@ -7,17 +7,17 @@
 ### Thêm file .env để set port và chạy bài
 ![](public/results/them_env.png)  
 
-##### Thay đổi code trong router thư mục gốc của file app.js để đưa đường dẫn đến phần login, đẩy code views/signin.ejs lên web
+## Thay đổi code trong router thư mục gốc của file app.js để đưa đường dẫn đến phần login, đẩy code views/signin.ejs lên web
 ![](public/results/fix_router.png)  
 
-##### Giao diện sau khi chỉnh router
+## Giao diện sau khi chỉnh router
 ![](public/results/home_1.png)  
 
-### Chỉnh capcha
-##### Đăng ký mã capcha trên https://www.google.com/recaptcha
+## Chỉnh capcha
+## Đăng ký mã capcha trên https://www.google.com/recaptcha
 ![](public/results/create_capcha.png)  
 
-##### Sau khi đăng ký xong ta sẽ có 2 mã public key và private key 
+## Sau khi đăng ký xong ta sẽ có 2 mã public key và private key 
 ![](public/results/public_secret_key.png)  
 - Public key: dùng để ghi lên các giao diện  "<divclass="g-recaptcha" data-sitekey="--public key--"></div>"
 ![](public/results/public_key.png)
@@ -27,15 +27,15 @@
 -
 Hình ảnh chỉ mang tính chất minh họa về key
 
-##### Kết quả
+## Kết quả
 ![](public/results/capcha_result.png)  
 
 ### Đăng nhập bằng google
 
-##### Đăng ký tài khoản https://console.cloud.google.com/
+### Đăng ký tài khoản https://console.cloud.google.com/
 ![](public/results/create_Oauth2.png) 
 
-### Tạo một mật khẩu để gửi mã về email
+# Tạo một mật khẩu để gửi mã về email
 
 - Các bước
 + B1: Đăng nhập vào Tài khoản Google
@@ -67,7 +67,7 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
 
 
 
-### Đổi mật khẩu: để nhận được mật khẩu mới gửi về mail thì ta cần phải nhập mail và nhập pass mới được tạo vào trong file .env
+## Đổi mật khẩu: 
 - Đổi mật khẩu
 ![](public/results/change_pass.png)
 - Đăng nhập với mật khẩu mới
@@ -75,10 +75,10 @@ Select device: Other (tên gì cũng được, ví dụ NodeMailer)
 
 
 
-### Quên mật khẩu
+## Quên mật khẩu
 - Nhập email 
 ![](public/results/fogotpass.png)
-- Mật khẩu sẽ được gửi về email
+- Mật khẩu sẽ được gửi về email: để nhận được mật khẩu mới gửi về mail thì ta cần phải nhập mail và nhập pass mới được tạo vào trong file .env
 - 
 ![](public/results/new_pass.png)
 
