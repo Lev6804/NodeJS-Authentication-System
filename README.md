@@ -37,6 +37,24 @@ Hình ảnh chỉ mang tính chất minh họa về key
 
 # Test các chức năng
 
+### Tạo một mật khẩu để gửi mã về email
+
+- Các bước
++ B1: Đăng nhập vào Tài khoản Google
+
++ B2: Vào Security → 2-Step Verification → bật nếu chưa bật.
+
++ B3: Sau khi bật 2FA, vào Security → App Passwords.
+
++B4: Chọn:
+
+Select app: Mail
+
+Select device: Other (tên gì cũng được, ví dụ NodeMailer)
+
++ B5: Nhấn Generate → Google sẽ cung cấp một mật khẩu 16 ký tự.
+Đây là mật khẩu dùng để gửi email từ ứng dụng Node.js.
+
 ### Đăng ký
 ![](public/results/regist.png) 
 
@@ -48,13 +66,18 @@ Hình ảnh chỉ mang tính chất minh họa về key
 
 
 ### Đổi mật khẩu
-![](public/results/change_pass.png) 
+- Đổi mật khẩu
+![](public/results/change_pass.png)
+- Đăng nhập với mật khẩu mới
+![](public/results/login_with_new_pass.png)
+
 
 
 ### Quên mật khẩu
 - Nhập email 
 ![](public/results/fogotpass.png)
 - Mật khẩu sẽ được gửi về email
+- 
 ![](public/results/new_pass.png)
 
 
