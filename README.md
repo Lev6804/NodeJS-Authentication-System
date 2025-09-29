@@ -1,9 +1,36 @@
 # Report: Hệ thống Authentication
+## Cây thư mục
+![](public/results/caythumuc.png)  
 
-## thay đổi code
+## Thay đổi code
 
-- ![Captcha Result](public/results/captcha_result.png)  
-  Kết quả kiểm tra Captcha.
+### Thêm file .env để set port và chạy bài
+![](public/results/them_env.png)  
+
+##### Thay đổi code trong router thư mục gốc của file app.js để đưa đường dẫn đến phần login, đẩy code views/signin.ejs lên web
+![](public/results/fix_router.png)  
+
+##### Giao diện sau khi chỉnh router
+![](public/results/home_1.png)  
+
+### Chỉnh capcha
+##### Đăng ký mã capcha trên https://www.google.com/recaptcha
+![](public/results/create_capcha.png)  
+
+##### Sau khi đăng ký xong ta sẽ có 2 mã public key và private key 
+![](public/results/public_secret_key.png)  
+- Public key: dùng để ghi lên các giao diện  "<divclass="g-recaptcha" data-sitekey="--public key--"></div>"
+![](public/results/public_key.png)
+- Private key: ghi trong file .env
+![](public/results/private_key.png)
+Hình ảnh chỉ mang tính chất minh họa về key
+
+##### Kết quả
+![](public/results/capcha_result.png)  
+
+##### Thêm file .env để set port và chạy bài
+![](public/results/them_env.png)  
+
 
 - ![Change Password](public/results/change_pass.png)  
   Giao diện đổi mật khẩu.
