@@ -1,108 +1,79 @@
-# Node.js Authentication System
+# 📌 Report: Hệ thống Authentication
 
-This project contains a complete authentication system using Node.js, Express, and MongoDB. It includes features like sign up, sign in, sign out, password reset, and social authentication (Google). The project is structured to be scalable with separate components for models, controllers, and routes.
+Thư mục **public/results/** chứa các hình ảnh minh họa cho quá trình xây dựng hệ thống Authentication với các chức năng: Đăng nhập, Đăng ký, Đổi mật khẩu, Reset mật khẩu, OAuth2 (Google), Captcha, Quản lý Profile.
 
-## Live Site
-[Click here](https://nodejs-authentication-system-l2pu.onrender.com/user/signin) to visit the live site.
+## 📝 Nội dung các hình ảnh
 
-## Features Implemented
-- **Sign-up with Email**: Create an account using your email and password.
-- **Sign-in**: Log into your account securely.
-- **Sign Out**: Log out of your session.
-- **Reset Password**: You can reset your passwords after signing in.
-- **Encrypted Passwords**: Passwords are securely stored using encryption.
-- **Google Login/Signup**: Sign in or sign up using your Google account.
-- **Forgot Password**: Reset your password via email.
-- **Password Strength Validation**: Notifications are displayed for unmatching passwords during sign up and incorrect passwords during sign in.
-- **reCAPTCHA Integration**: Protects against bot traffic on sign up and login pages.
+- ![Captcha Result](public/results/captcha_result.png)  
+  Kết quả kiểm tra Captcha.
 
-## Environment Variables
+- ![Change Password](public/results/change_pass.png)  
+  Giao diện đổi mật khẩu.
 
-Before running the application locally, ensure you have set up the following environment variables in a .env file located at the root of your project:
+- ![Create Captcha](public/results/create_captcha.png)  
+  Tạo Captcha ngẫu nhiên.
 
-1. **PORT**: Specifies the port number the application listens on.
-2. **DB_URL**: MongoDB database connection URL.
-3. **CLIENT_ID**: Google OAuth client ID.
-4. **CLIENT_SECRET**: Google OAuth client secret (sign in with Google).
-5. **EMAIL**: Email address for sending emails.
-6. **PASSWORD**: App-specific password or regular password for the Gmail account.
-7. **RECAPTCHA_SECRET_KEY**: Google reCAPTCHA secret key.
-8. **CLIENT_URL**: URL to redirect after signing in with Google, e.g., "http://localhost:3000/auth/login/success".
+- ![Create OAuth2](public/results/create_Oauth2.png)  
+  Cấu hình OAuth2 cho đăng nhập Google.
 
-Ensure that you have the appropriate values for each variable before running the application.
+- ![Fix Router](public/results/fix_router.png)  
+  Sửa router trong hệ thống.
 
-Example `.env` file:
+- ![Forgot Password](public/results/fogotpass.png)  
+  Chức năng quên mật khẩu.
 
-```plaintext
-PORT=3000
-DB_URL=mongodb://localhost:27017/authdatabase
-CLIENT_ID=your_client_id
-CLIENT_SECRET=your_client_secret
-EMAIL=your_email@gmail.com
-PASSWORD=your_gmail_password
-RECAPTCHA_SECRET_KEY=your_recaptcha_secret_key
-CLIENT_URL=http://localhost:3000/auth/login/success
-```
+- ![Home 1](public/results/home_1.png)  
+  Giao diện trang chủ (phiên bản 1).
 
-## Folder
-  ```csharp
-node-authentication/
-├── config/                  # Configuration files
-│   └── mongodb.js           # MongoDB configuration
-│
-├── controllers/             # Controller logic
-├── models/                  # Database models
-├── routes/                  # Route definitions
-├── views/                   # EJS views
-├── app.js                   # Express application setup
-│
-├── public/                  # Static assets
-│
-├── package.json             # NPM package configuration
-├── README.md                # Project README file
-├── .gitignore               # Git ignore configuration
-└── .env                     # Environment variables file
+- ![Home 2](public/results/home_2.png)  
+  Giao diện trang chủ (phiên bản 2).
 
-```
+- ![Image](public/results/image.png)  
+  Hình minh họa chung.
 
-## Installation and Setup
+- ![Info OAuth](public/results/info_Oauth.png)  
+  Thông tin user sau khi login bằng OAuth.
 
-Follow these steps to run the project locally:
+- ![Login Google Fail](public/results/Login_google_fail.png)  
+  Lỗi khi đăng nhập Google thất bại.
 
+- ![Login With New Password](public/results/login_with_new_pass.png)  
+  Đăng nhập lại bằng mật khẩu mới.
 
-1. Clone the repository to your local machine:
+- ![Login](public/results/login.png)  
+  Form đăng nhập cơ bản.
 
-   ```bash
-   git clone https://github.com/your-username/nodejs-authentication-system.git
-  
-2. Navigate into the project directory:
-   ```bash
-   cd node-authentication-system
-    ```
-3. Install dependencies:
-   ```bash
-   npm install
+- ![Private Key](public/results/private_key.png)  
+  Khóa riêng tư (JWT hoặc OAuth).
 
-4. Start the server:
-   ```bash
-   npm start
-5. Open your web browser and visit http://localhost:3000 to access the application.
+- ![Profile](public/results/profile.png)  
+  Trang thông tin cá nhân.
 
-## Dependencies required
+- ![Public Key](public/results/public_key.png)  
+  Khóa công khai.
 
-- Express.js
-- MongoDB
-- Passport.js
-- bcrypt
-- express-session
-- express-ejs-layouts
-- dotenv
-- nodemailer
+- ![Public Secret Key](public/results/public_secret_key.png)  
+  Bộ key bảo mật.
 
-## Credits
+- ![Register Fix Captcha](public/results/regist_fix_captcha.png)  
+  Đăng ký với Captcha bảo mật.
 
-This project was created by [Ravikant Singh](https://github.com/ravikantsingh12). Contributions via issues or pull requests are welcome!
+- ![Sign Out](public/results/sign_out.png)  
+  Chức năng đăng xuất.
 
-## Follow me on
+- ![Them ENV](public/results/them_env.png)  
+  File `.env` chứa cấu hình.
 
-- [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
+- ![CN](public/results/cn.png)  
+  Hình minh họa khác (có thể là chứng nhận / cấu hình).
+
+## 🚀 Kết luận
+
+- Hệ thống đã triển khai được:
+  - Đăng ký, đăng nhập cơ bản.  
+  - Captcha chống bot.  
+  - Reset/đổi mật khẩu.  
+  - Đăng nhập Google OAuth2.  
+  - Quản lý profile cá nhân.  
+
+Các ảnh trong thư mục **public/results/** minh chứng cho từng bước triển khai hệ thống.
